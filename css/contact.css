@@ -1,0 +1,55 @@
+label
+{
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 600;
+    border-radius: 20px;
+    color:#00008b;
+}
+body
+{
+    display: flex;
+    min-height: 100vh;
+    background: #000000;
+}
+h1
+{
+    color: #000000;
+    text-align: center;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/sunrise-1590214_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.regform
+{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,5);
+    border-radius: 20px;
+    border-spacing: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regform label
+{
+    color:#3300ff;
+    left: 5px;
+}
+button
+{
+    color: #f0f8ff;
+    padding: 8px 10px 8px 10px;
+    background-color: #000000;
+}
